@@ -1,0 +1,24 @@
+/* Card.css */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card div {
+    margin-bottom: 8px;
+  }
+  
+  .card div:last-child {
+    margin-bottom: 0;
+  }
+  
